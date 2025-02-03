@@ -30,10 +30,15 @@ Pastikan sistem Anda memiliki:
    cp .env.example .env
 5. Atur database di .env
     DB_CONNECTION=mysql
+   
     DB_HOST=127.0.0.1
+   
     DB_PORT=3306
+   
     DB_DATABASE=nama_database
+   
     DB_USERNAME=root
+   
     DB_PASSWORD=
 7. Generate key
    php artisan key:generate
