@@ -23,10 +23,11 @@ Pastikan sistem Anda memiliki:
 ## **Cara Menjalankan Proyek**
 1. Clone repository ini
    git clone git@github.com:delilaaah/laravel-sanctum.git
+   
    cd laravel_sanctum
-2. Install dependencies
+3. Install dependencies
    composer install
-3. Duplikasi file .env
+4. Duplikasi file .env
    cp .env.example .env
 5. Atur database di .env
     DB_CONNECTION=mysql
